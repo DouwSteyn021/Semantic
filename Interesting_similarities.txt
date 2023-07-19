@@ -1,0 +1,22 @@
+Similarity between "cat" and "monkey": The similarity score between "cat" and "monkey" is relatively low, indicating that they are not closely related in terms of their semantic meanings.
+
+Similarity between "banana" and "monkey": The similarity score between "banana" and "monkey" is slightly higher than the score between "cat" and "monkey." This suggests that "banana" and "monkey" may have some semantic association, possibly due to their natural habitat or dietary preferences.
+
+Similarity between "banana" and "cat": Surprisingly, the similarity score between "banana" and "cat" is higher than the score between "cat" and "monkey." Although "banana" and "cat" are unrelated objects, the similarity score might be influenced by shared linguistic features or co-occurrences in the training data.
+
+Example of my own:
+
+Let's compare the words "coffee" and "morning" to see if there is any semantic similarity between them:
+
+python
+
+word1 = nlp("coffee")
+word2 = nlp("morning")
+similarity = word1.similarity(word2)
+print(similarity)
+
+The interesting aspect of this similarity is that it reflects a common association between "morning" and "coffee" based on contextual and cultural factors.
+
+In many cultures, coffee is often associated with mornings and is commonly consumed as a way to kickstart the day. This association is captured by the language model due to the co-occurrence patterns it has learned from the training data.
+
+The similarity score obtained gives us a quantitative measure of the semantic similarity between "morning" and "coffee." 

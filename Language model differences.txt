@@ -1,0 +1,10 @@
+After running the example file with the 'en_core_web_sm' model instead of the 'en_core_web_md' model, the following observations can be made:
+
+-Model Size: The 'en_core_web_sm' model is a smaller version of the language model compared to 'en_core_web_md.' The smaller model size means that it may have fewer pre-trained word vectors and might not capture as much semantic information as the larger model.
+
+-Similarity Scores: The similarity scores obtained between the complaints and recipes are generally lower compared to the scores obtained with the 'en_core_web_md' model. This indicates that the smaller model may struggle to capture the semantic similarities between longer pieces of text effectively.
+
+-Performance: Since the 'en_core_web_sm' model is smaller, it may process the text and compute the similarities faster compared to the 'en_core_web_md' model. This can be advantageous when working with large amounts of data or in scenarios where speed is a priority.
+
+-Trade-off: While the smaller model provides faster processing, it sacrifices some accuracy in capturing semantic similarities. Depending on the specific use case, the trade-off between model size, speed, and accuracy needs to be considered.
+
