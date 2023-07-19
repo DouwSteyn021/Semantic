@@ -27,8 +27,6 @@ docker build -t semantic-similarity .
 
 Once the Docker image is built, run the following command to execute the code:
 
-arduino
-
     docker run semantic-similarity
 
     Observe the output in the terminal, which shows the semantic similarity scores between various words, tokens, and sentences.
